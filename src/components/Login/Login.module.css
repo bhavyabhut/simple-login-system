@@ -40,6 +40,13 @@
 
 @media (max-width: 560px) {
 	.loginContainer {
-		padding: 1rem;
+		padding: 0;
+	}
+	.btn {
+		margin-bottom: 1rem;
+	}
+	.form {
+		margin: 0.8rem;
+		width: 250px;
 	}
 }

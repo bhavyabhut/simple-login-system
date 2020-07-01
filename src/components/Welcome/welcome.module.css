@@ -82,3 +82,18 @@ h3:hover {
     );
   }
 }
+
+@media (max-width: 760px) {
+  h1 {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 560px) {
+  h1 {
+    font-size: 2rem;
+  }
+  .gradient_text {
+    margin-bottom: 2rem;
+  }
+}
