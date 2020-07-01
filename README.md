@@ -1,6 +1,11 @@
 ## Library used
 
-`sd`
+###`react`
+###`redux`
+###`react-redux`
+###`redux-saga`
+###`reactstrap`
+
 
 
 
