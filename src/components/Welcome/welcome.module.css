@@ -1,0 +1,84 @@
+.welcomeDiv {
+  width: 100%;
+  height: 100vh;
+  background: black;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 10rem;
+}
+
+.gradient_text {
+  background-color: red;
+  background-image: linear-gradient(45deg, #f3df88, #4fadac, #f2a172, #f89d89);
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  z-index: 2;
+}
+
+h1 {
+  cursor: pointer;
+  font-weight: normal;
+  font-size: 8em;
+  text-align: center;
+  margin-bottom: 0;
+  margin-bottom: 5rem;
+}
+h1:hover,
+h3:hover {
+  transition: all 1s;
+  transform: scale(1.2);
+  animation: bhavya;
+  animation-duration: 0.7s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+@keyframes bhavya {
+  0% {
+    background-image: linear-gradient(
+      to right,
+      #f3df88,
+      #5386a6,
+      #4fadac,
+      #f2a172,
+      #f89d89
+    );
+  }
+  25% {
+    background-image: linear-gradient(
+      to right,
+      #4fadac,
+      #f2a172,
+      #f89d89,
+      #f3df88,
+      #5386a6
+    );
+  }
+  50% {
+    background-image: linear-gradient(
+      to right,
+      #4fadac,
+      #f2a172,
+      #5386a6,
+      #f89d89,
+      #f3df88
+    );
+  }
+  100% {
+    background-image: linear-gradient(
+      to right,
+      #5386a6,
+      #4fadac,
+      #f2a172,
+      #f89d89,
+      #f3df88
+    );
+  }
+}
